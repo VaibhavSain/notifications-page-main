@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device --> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <title>Notifications page</title>
+</head>
+<body>
+  <main>
+  <h1 class="heading">Notifications</h1>
+  <i class="noti">3</i>
+  <p class="mark" onclick="remove()">Mark all as read</p>
+  <div class="hide">
+  <div class="box1" >
+    <img src="avatar-mark-webber.webp" class="webber">
+    <p><b>Mark Webber</b> reacted to your recent post  <i class="tour"> My first tournament today! </i></p>
+    <i class="time">1m ago</i>
+  </div>
+  <div class="box1 box" >
+    <img src="avatar-angela-gray.webp" class="webber">
+    <p><b>Angela Gray</b> followed you</p>
+    <i class="time">5m ago</i>
+  </div>
+  <div class="box1 box" id="box">
+    <img src="avatar-jacob-thompson.webp" class="webber">
+    <p><b> Jacob Thompson</b>  has joined your group <i class="blue"> Chess Club </i></p>
+    <i class="time">1 day ago</i>
+  </div>
+  <div class="box1 box box4" id="box">
+    <img src="avatar-rizky-hasanuddin.webp" class="webber">
+    <p><b>Rizky Hasanuddin </b> sent you a private message</p>
+    <i class="time">5 days ago</i>
+    <p class="para">
+      Hello, thanks for setting up the Chess Club. I've been a member for a <br> few weeks now and 
+      I'm already having lots of fun and improving my <br> game.</p>
+  </div>
+  <div class="box1 box box10" id="box">
+    <img src="avatar-kimberly-smith.webp" class="webber">
+    <p><b> Kimberly Smith  </b> commented on your picture</p>
+    <i class="time">1 week ago</i>
+  </div>
+  <div class="box1 box box9 box10" id="box">
+    <img src="avatar-mark-webber.webp" class="webber">
+    <p><b> Nathan Peterson </b> reacted to your recent post  <i class="tour"> 5 end-game strategies to increase your win rate</i></p>
+    <i class="time">2 week ago</i>
+  </div>
+  <div class="box1 box box10" id="box">
+    <img src="avatar-anna-kim.webp" class="webber">
+    <p><b>Anna Kim</b> left the group <i class="blue"> Chess Club </i></p>
+    <i class="time">2 week ago</i>
+  </div>
+  </div>
+  
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
